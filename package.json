@@ -1,0 +1,15 @@
+{
+  "name": "make-documentation",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vitepress build",
+    "deploy": "netlify deploy --prod",
+    "dev": "vitepress dev --host 0.0.0.0",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "netlify-cli": "^15.0.0",
+    "vitepress": "^1.0.0-beta.3"
+  }
+}
