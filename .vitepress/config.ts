@@ -16,6 +16,14 @@ export default defineConfig({
   themeConfig: {
     nav: nav(),
     outline: [2, 3],
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'PBT33QQIUI',
+        apiKey: 'f89129281b57349f1db1d2fa0fa652df',
+        indexName: 'make',
+      },
+    },
     sidebar: {
       '/guide/': sidebarGuide(),
     },

@@ -1,0 +1,13 @@
+[build]
+  command = "yarn run build"
+  functions = "netlify/functions"
+  publish = ".vitepress/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+
+[plugins.inputs]
+  branches = ['master', 'main']
