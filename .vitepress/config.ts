@@ -21,7 +21,7 @@ export default defineConfig({
       options: {
         appId: 'PBT33QQIUI',
         apiKey: 'f89129281b57349f1db1d2fa0fa652df',
-        indexName: 'make',
+        indexName: 'netlify_e683bb75-c0ba-4f7a-8bda-72bc295403d0_main_all',
       },
     },
     sidebar: {
